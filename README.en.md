@@ -82,7 +82,7 @@ Support cluster deployment, high availability.
 
 Customer service QQ: 245792062
 Contact customer service: 18908605871 (same as WeChat)
-Customer Service WeChat: Scan the code to add WeChat
+Customer Service WeChat: Scan the code to add WeChat ![](https://naisnet-1303209584.cos.ap-hongkong.myqcloud.com/qrcode.jpg)
 
 ![](https://naisnet-1303209584.cos.ap-hongkong.myqcloud.com/3.jpg)
 
