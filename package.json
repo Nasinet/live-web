@@ -1,0 +1,45 @@
+{
+  "name": "one-to-many",
+  "version": "1.0.0",
+  "description": "My wonderful Nuxt.js project",
+  "author": "xmw",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon server/nasi-live.js --watch server",
+    "build": "nuxt build",
+    "start": "cross-env NODE_ENV=production node server/nasi-live.js",
+    "prd": "cross-env NODE_ENV=production pm2 start server/nasi-live.js",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "clipboard": "^2.0.6",
+    "cos-js-sdk-v5": "^0.5.27",
+    "cross-env": "^5.2.0",
+    "crypto-js": "^4.0.0",
+    "dplayer": "^1.25.1",
+    "element-ui": "^2.13.2",
+    "koa": "^2.6.2",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^9.0.1",
+    "koa2-cors": "^2.0.6",
+    "nuxt": "^2.0.0",
+    "qs": "^6.9.4",
+    "svgaplayerweb": "^2.3.1",
+    "tim-js-sdk": "^2.7.6"
+  },
+  "devDependencies": {
+    "babel-plugin-component": "^1.1.1",
+    "node-sass": "^4.14.1",
+    "nodemon": "^1.18.9",
+    "sass-loader": "^8.0.2",
+    "stylus": "^0.54.7",
+    "stylus-loader": "^3.0.2"
+  },
+  "config": {
+    "nuxt": {
+      "host": "0.0.0.0",
+      "port": "3000"
+    }
+  }
+}

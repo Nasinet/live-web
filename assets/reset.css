@@ -1,0 +1,158 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  background-color: #fff;
+}
+
+.el-slider__bar {
+  background-color: #F06E1E !important;
+}
+
+.el-slider__button {
+  border-color: #F06E1E !important;
+  background-color: #F06E1E !important;
+}
+
+.el-slider__runway {
+  height: 2px !important;
+}
+
+.el-slider__bar {
+  height: 2px !important;
+}
+
+.el-slider__button {
+  height: 10px !important;
+  width: 10px !important;
+}
+
+.el-slider__button-wrapper {
+  top: -17px !important;
+}
+
+.text-overflow {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  word-break: break-all;
+}
+
+.focus-btn {
+  width: 69px;
+  height: 24px;
+  line-height: 24px;
+  border-radius: 12px;
+  background: #ffffff;
+  box-shadow: 1px 2px 7px 0px rgba(109,214,238,0.45);
+  text-align: center;
+  font-size: 13px;
+}
+
+.report {
+  display: flex;
+  align-items: center;
+  padding: 0 12px;
+  height: 46px;
+}
+
+.report>img {
+  width: 15px;
+  height: 15px;
+  margin-right: 13px;
+}
+
+.report>p {
+  flex: 1;
+  font-size: 13px;
+  color: #9090A2;
+}
+
+.dplayer-controller-mask {
+  display: none;
+}
+
+.dplayer-controller {
+  display: none;
+}
+
+.dplayer-notice {
+  display: none;
+}
+
+/*.dplayer-bezel {*/
+/*  display: none !important;*/
+/*}*/
+
+.dynamic-item .dplayer-controller-mask {
+  display: block;
+}
+
+.dynamic-item .dplayer-controller {
+  display: block;
+}
+
+.dynamic-release .dplayer-controller-mask {
+  display: block;
+}
+
+.dynamic-release .dplayer-controller {
+  display: block;
+}
+
+button {
+  border: none;
+  outline: none;
+}
+
+.vip-slide-enter-active, .vip-slide-leave-active {
+  transform: translateY(-50%) scale(1);
+  transition: all 0.3s ease-in-out;
+}
+
+.vip-slide-enter, .vip-slide-leave-to {
+  transform: translate3d(0, -70%, 0) scale(0.1);
+  opacity: 0;
+}
